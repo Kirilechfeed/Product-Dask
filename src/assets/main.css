@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+@layer base {
+  @font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .fi {
+      @apply flex justify-center items-center;
+  }
+}
+.circle {
+    @apply h-5 w-5 bg-mLime rounded-full mx-2;
+}
+.newColor {
+    @apply bg-red-500;
+}
+.container-transaction {
+    @apply flex justify-center rounded-2xl shadow-3xl border-2 cursor-pointer items-center hover:border-mLime;
+}
+.container-img {
+    @apply w-full p-5 h-36 lg:h-[140px] flex justify-center items-center;
+}
+.main-section {
+    @apply flex-1 flex flex-col gap-y-2 pb-12 lg:p-5
+}
+
+.visa{
+    @apply h-[75px]
+}
+.masterCard{
+    @apply h-[100px]
+}
+.pay-pal{
+    @apply h-[80px]
+}
+.americanExpress{
+    @apply h-[100px]
+}
+.scrill{
+    @apply h-[80px]
+}
+.stripe{
+    @apply h-[125px]
+}
+.peyoneer{
+    @apply h-[100px]
+}
+.bitcoin{
+    @apply h-[55px]
+}
+
